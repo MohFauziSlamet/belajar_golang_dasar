@@ -49,7 +49,7 @@ TIPE DATA NUMBER PADA GO
 ALIAS
 kata ganti untuk memanggil type data
 1. byte => ia akan memanggil type data unint8.
-2. rune => ia akan memanggil type daya int32.
+2. rune => ia akan memanggil type data int32.
 3. int => ia akan memanggil int32 / int64 (sesuai dengan system operasi yang digunakan)
 4. unint => ia akan memanggil unint32 / unint64 (sesuai dengan system operasi yang digunakan)
 */
