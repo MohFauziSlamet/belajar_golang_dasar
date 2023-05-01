@@ -5,6 +5,7 @@ import "fmt"
 /*
 fumc variadic, hanya bisa di letakkan di akhir parameter.
 akan error , jika diletakan di tengah atau didepan.
+variabel argumen hanya ada satu pada setiap function.
 */
 func sumAll(firstName string, lastName string, numbers ...int) (string, int) {
 	name := firstName + lastName
