@@ -6,7 +6,7 @@ func main() {
 	/*
 		Konversi Tipe Data
 		Di Go-Lang kadang kita butuh melakukan konversi tipe data dari satu tipe ke tipe lain
-		Misal kita ingin mengkonversi tipe data int32 ke int63, dan lain-lain.
+		Misal kita ingin mengkonversi tipe data int32 ke int64, dan lain-lain.
 	*/
 
 	var int32 int32 = 1000
@@ -22,7 +22,7 @@ func main() {
 		karena memiliki batas max yang berbeda.
 		misal int32 = 1000
 		ketika di konversi ke int8 akan bernilai = -24.
-		alur terjadi perubahanya, dimulai dari batax max yaitu 127 , lalu
+		alur terjadi perubahanya, dimulai dari batas max yaitu 127 , lalu
 		langsung turun ke batas min -128 , lalu turun lagi -127 , -126 , sampai batas max lagi.
 		jika sudah sampai batas max lagi , namun ankgka int32 belum selesai di konversi, maka akan
 		turun ke batas min lagi , lanjut seperti tadi prosesnya, sampai int32 di konversi semua.

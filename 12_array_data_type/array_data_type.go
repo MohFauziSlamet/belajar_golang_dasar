@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	/*
 		Tipe Data Array
-		Array adalah tipe data yang berisikan kumpulan data dengan tipe yang sama
-		Saat membuat array, kita perlu menentukan jumlah data yang bisa ditampung oleh Array tersebut
+		Array adalah tipe data yang berisikan kumpulan data dengan tipe yang sama.
+		Saat membuat array, kita perlu menentukan jumlah data yang bisa ditampung oleh Array tersebut.
 		Daya tampung Array tidak bisa bertambah setelah Array dibuat
 
 		Index di Array
@@ -44,7 +44,7 @@ func main() {
 		 	Operasi						Keterangan
 			len(array)					Untuk mendapatkan panjang Array
 			array[index]				Mendapat data di posisi index
-			array[index] = valu	e		Mengubah data di posisi index
+			array[index] = value		Mengubah data di posisi index
 
 	*/
 

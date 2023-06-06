@@ -15,12 +15,14 @@ func main() {
 	/// Membuat for expresion
 	counter := 1
 
-	for counter <= 10 {
+	for counter <= 5 {
 		fmt.Println("Index ke", counter)
 		counter++
 	}
 
 	fmt.Println("======================================================================")
+	fmt.Println()
+
 	/*
 		For dengan Statement
 		Dalam for, kita bisa menambahkan statement,
@@ -35,13 +37,14 @@ func main() {
 		fmt.Println("Index ke", i)
 	}
 	fmt.Println("======================================================================")
+	fmt.Println()
 
 	/*
 		For juga bisa digunakan untuk mengakses data pada array , slice dan map.
 	*/
 
 	/// Array
-	fmt.Println("Loop in Array")
+	fmt.Println("\nLoop in Array")
 	array := [...]string{"Moh", "Fauzi", "Slamet"}
 	fmt.Println("Panjang array", len(array))
 	fmt.Println("Panjang array", cap(array))
@@ -51,6 +54,8 @@ func main() {
 	}
 
 	fmt.Println("======================================================================")
+	fmt.Println()
+
 	/// Slice
 	fmt.Println("Loop in Slice")
 	// slice := []string{"Moh", "Fauzi", "Slamet"}
@@ -63,6 +68,7 @@ func main() {
 	}
 
 	fmt.Println("======================================================================")
+	fmt.Println()
 
 	/*
 		Range
@@ -97,6 +103,7 @@ func main() {
 	}
 
 	fmt.Println("======================================================================")
+	fmt.Println()
 	/*
 		didalam for range terdapat index atau key, jika kita tidak memakai data tersebut,
 		bisa kita hilangkan dengan mengganti dengan tanda underscore ( _ ).

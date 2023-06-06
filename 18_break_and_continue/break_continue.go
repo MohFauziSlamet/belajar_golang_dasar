@@ -20,6 +20,10 @@ func main() {
 		}
 		fmt.Println("Index ke :", i)
 	}
+
+	fmt.Println("======================================================================")
+	fmt.Println()
+
 	fmt.Println("Continue")
 	for i := 0; i <= 10; i++ {
 		if i%2 == 0 {

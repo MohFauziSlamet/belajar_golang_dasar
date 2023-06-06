@@ -5,23 +5,23 @@ import "fmt"
 func main() {
 	/*
 				Tipe Data Slice
-				Tipe data Slice adalah potongan dari data Array
-				Slice mirip dengan Array, yang membedakan adalah ukuran Slice bisa berubah
+				Tipe data Slice adalah potongan dari data Array.
+				Slice mirip dengan Array, yang membedakan adalah ukuran Slice bisa berubah.
 				Slice dan Array selalu terkoneksi, dimana Slice adalah data yang mengakses sebagian atau seluruh data di Array
 
 
 				Detail Tipe Data Slice
-				Tipe Data Slice memiliki 3 data, yaitu pointer, length dan capacity
+				Tipe Data Slice memiliki 3 data, yaitu pointer, length dan capacity.
 				Pointer adalah penunjuk data pertama di array pada slice
 				Length adalah panjang dari slice, dan
-				Capacity adalah kapasitas dari slice, dimana length tidak boleh lebih dari capacity
+				Capacity adalah kapasitas dari slice, dimana length tidak boleh lebih dari capacity.
 
 				Ketentuan Membuat Slice Dari Array
 		 		Membuat Slice				Keterangan
-				1. array[low:high]			Membuat slice dari array dimulai index low sampai index sebelum high
-				2. array[low:]				Membuat slide dari array dimulai index low sampai index akhir di array
-				3. array[:high]				Membuat slice dari array dimulai index 0 sampai index sebelum high
-				4. array[:]					Membuat slice dari array dimulai index 0 sampai index akhir di array
+				1. slice[low:high]			Membuat slice dari array dimulai index low sampai index sebelum high
+				2. slice[low:]				Membuat slide dari array dimulai index low sampai index akhir di array
+				3. slice[:high]				Membuat slice dari array dimulai index 0 sampai index sebelum high
+				4. slice[:]					Membuat slice dari array dimulai index 0 sampai index akhir di array
 
 				Function Slice
 				 Operasi							Keterangan
@@ -115,6 +115,8 @@ func main() {
 	/// dan panjang [slice4] setelah di append adalah 4, maka
 	/// akan di tampung pada array sama sama yaitu [momth] (saling berkaitan / reference).
 	slice4 := append(slice1, "Fauzi")
+
+	fmt.Println()
 	fmt.Println("Slice4 : ", slice4)            //  [Mei Juni Juli Fauzi]
 	fmt.Println("Slice1 : ", slice1)            //  [Mei Juni Juli Fauzi]
 	fmt.Println("Array parent month : ", month) //  "Agustus" berubah jadi "Fauzi" => [Januari Februari Maret April Mei Juni Juli Fauzi September Oktober Nobember Desember]

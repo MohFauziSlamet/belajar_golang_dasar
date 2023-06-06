@@ -23,5 +23,7 @@ func main() {
 	fmt.Println("=========")
 	fmt.Println(len("MOH"))
 	fmt.Println("FAUZI"[0])
+	fmt.Println(string("FAUZI"[0]))
 	fmt.Println("SLAMET"[1])
+	fmt.Println(string("SLAMET"[1]))
 }
