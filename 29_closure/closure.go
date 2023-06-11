@@ -28,6 +28,9 @@ func main() {
 		/*
 		 variable name tidak bisa di aksek di dalam func.
 		 karena berada di bawah func.
+		 dan sebaliknya, jika kita membuat variabel
+		 didalam func,  maka variable tsb tidak bisa
+		 diakses diluar si func tsb.
 		*/
 		// fmt.Println(name)
 
