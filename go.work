@@ -1,0 +1,7 @@
+go 1.21.0
+
+use (
+	.
+	./43_package_and_import
+	./45_package_initialization
+)
