@@ -16,9 +16,10 @@ Cara menjalankan go :
 4. lalu masuk ke dalam file tsb , melalui terminal. dengan memasukan perintah ( ./ <nama file> )
 
 
-sebenarya saat development kita bisa langsung menjalankan file secara langsung .
-kita menjalankan dengan cara kompile saat akan melakukan realese ke server (production). karena yang akan
-dikirm dalam bentuk binary.
+sebenarya saat development kita bisa langsung menjalankan
+file secara langsung . kita menjalankan dengan cara kompile
+saat akan melakukan realese ke server (production). karena yang
+akan dikirm dalam bentuk binary.
 
 file yang di kompile , akan menjadi binary file .
 

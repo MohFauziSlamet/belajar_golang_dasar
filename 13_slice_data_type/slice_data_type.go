@@ -65,9 +65,9 @@ func main() {
 	*/
 
 	/// Contoh mengubah data array
-	// month[5] = "Ubah"
-	// fmt.Println("Data array yang di ubah pada index ke 5", month)
-	// fmt.Println("Data slice akan juga ikut berubah", slice1)
+	month[5] = "Ubah"
+	fmt.Println("Data array yang di ubah pada index ke 5", month)
+	fmt.Println("Data slice akan juga ikut berubah", slice1)
 
 	/// Contoh mengubah slice
 	// slice1[1] = "Ubah"

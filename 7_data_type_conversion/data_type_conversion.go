@@ -9,13 +9,15 @@ func main() {
 		Misal kita ingin mengkonversi tipe data int32 ke int64, dan lain-lain.
 	*/
 
-	var int32 int32 = 1000
-	var int64 int64 = int64(int32)
-	var int8 int8 = int8(int32)
+	var int32value int32 = 327768
+	var int64value int64 = int64(int32value)
+	var int16value int16 = int16(int32value)
+	var int32ValueLagi int32 = int32(int16value)
 
-	fmt.Println(int32)
-	fmt.Println(int64)
-	fmt.Println(int8)
+	fmt.Println("int32value : ", int32value)
+	fmt.Println("int64value : ", int64value)
+	fmt.Println("int16value : ", int16value)
+	fmt.Println("int32valueLagi : ", int32ValueLagi)
 
 	/*
 		jika saat konversi dari int besar ke int kecil, maka akan terjadi penyesuain pada int kecil.
@@ -37,6 +39,8 @@ func main() {
 		string(dataByteNya)
 	*/
 	name := "FAUZI"
+	nameWife := "Fazi"
+	nameHusband := "fazi"
 	// eByte := name[0] // cara 1
 	// eByteString := string(eByte)
 	eByteString := string(name[0]) // cara 2
@@ -44,5 +48,10 @@ func main() {
 	fmt.Println(name)
 	// fmt.Println(eByte)
 	fmt.Println(eByteString)
+	fmt.Println(name[0])
+	fmt.Println(nameWife[0])
+	fmt.Println(nameHusband[0])
 
+	///* jika huRUF nya sama F dan F, maka nilai byte nya sama.
+	///* namun jika memakai f (kecil) , maka nilai byte nya berbeda.
 }

@@ -1,7 +1,8 @@
 /*
 TIPE DATA NUMBER PADA GO
 1. Integer => tipe data bil bulat.
-	Integer dibagi menjadi beberapa jenis tergantung dengan kebutuhannya.
+	Integer dibagi menjadi beberapa jenis tergantung
+	dengan kebutuhannya.
 
 	A.Integer yang bisa diisi dengan nilai negatif
 	1. int8
@@ -31,9 +32,10 @@ TIPE DATA NUMBER PADA GO
 		min : 0
 		max : 9.223.372.036.854.775.807 * 2
 
-	unint (unsigned integer) memiliki 2x nilai maksimum dibanding dengan int biasa , karena
-	tidak memiliki nilai negatif.
-	semakin besar batas max , maka semakin besar pula memory penyimpanan yang digunakan.
+	unint (unsigned integer) memiliki 2x nilai maksimum
+	dibanding dengan int biasa , karena tidak memiliki nilai
+	negatif. semakin besar batas max , maka semakin besar pula
+	memory penyimpanan yang digunakan.
 
 2. Floating Point => tipe data decimal.
 	1. float32

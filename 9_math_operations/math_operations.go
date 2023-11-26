@@ -40,7 +40,7 @@ func main() {
 	var i = 10
 
 	i += 10
-	fmt.Println(i)
+	fmt.Println("i : ", i)
 
 	i -= 10 // i = 20
 	fmt.Println(i)

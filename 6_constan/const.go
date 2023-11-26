@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 	/*
 		Constant
-		Constant adalah variable yang nilainya tidak bisa diubah lagi setelah pertama kali diberi nilai
-		Cara pembuatan constant mirip dengan variable, yang membedakan hanya kata kunci yang digunakan adalah const, bukan var
-		Saat pembuatan constant, kita wajib langsung menginisialisasikan datanya
-
-
+		Constant adalah variable yang nilainya tidak bisa diubah lagi
+		setelah pertama kali diberi nilai.
+		Cara pembuatan constant mirip dengan variable,
+		yang membedakan hanya kata kunci yang digunakan adalah const, bukan var.
+		Saat pembuatan constant, kita wajib langsung menginisialisasikan datanya.
 	*/
 
 	const name string = "Moh Fauzi"
@@ -23,7 +23,8 @@ func main() {
 
 	/*
 		Deklarasi Multiple Constant
-		Sama seperti variable, di Go-Lang  juga kita bisa membuat constant secara sekaligus banyak
+		Sama seperti variable, di Go-Lang  juga kita bisa membuat constant
+		secara sekaligus banyak.
 	*/
 	const (
 		firstName = "Moh Fauzi"

@@ -5,10 +5,14 @@ import "fmt"
 func main() {
 	/*
 		Variable
-		Variable adalah tempat untuk menyimpan data
-		Variable digunakan agar kita bisa mengakses data yang sama dimanapun kita mau
-		Di Go-Lang Variable hanya bisa menyimpan tipe data yang sama, jika kita ingin menyimpan data yang berbeda-beda jenis, kita harus membuat beberapa variable
-		Untuk membuat variable, kita bisa menggunakan kata kunci var, lalu diikuti dengan nama variable dan tipe datanya
+		Variable adalah tempat untuk menyimpan data.
+		Variable digunakan agar kita bisa mengakses
+		data yang sama dimanapun kita mau.
+		Di Go-Lang Variable hanya bisa menyimpan tipe data yang sama,
+		jika kita ingin menyimpan data yang berbeda-beda jenis,
+		kita harus membuat beberapa variable.
+		Untuk membuat variable, kita bisa menggunakan kata kunci var,
+		lalu diikuti dengan nama variable dan tipe datanya.
 
 	*/
 
@@ -24,9 +28,10 @@ func main() {
 
 	/*
 		Tipe Data Variable
-		Saat kita membuat variable, maka kita wajib menyebutkan tipe data variable tersebut
+		Saat kita membuat variable, maka kita wajib
+		menyebutkan tipe data variable tersebut.
 		Namun jika kita langsung menginisialisasikan data pada variable nya,
-		maka kita tidak wajib menyebutkan tipe data variable nya
+		maka kita tidak wajib menyebutkan tipe data variable nya.
 	*/
 	var friendName = "Moh Fauzi"
 	fmt.Println(friendName)
@@ -44,9 +49,9 @@ func main() {
 	/*
 		Kata Kunci Var
 		Di Go-Lang, kata kunci var saat membuat variable tidak lah wajib.
-		Asalkan saat membuat variable kita langsung menginisialisasi datanya
-		Agar tidak perlu menggunakan kata kunci var, kita perlu menggunakan kata kunci :=
-		saat menginisialisasikan data pada variable tersebut
+		Asalkan saat membuat variable kita langsung menginisialisasi datanya.
+		Agar tidak perlu menggunakan kata kunci var, kita perlu menggunakan
+		kata kunci := saat menginisialisasikan data pada variable tersebut.
 	*/
 	girlFrined := "Moh Fauzi"
 	fmt.Println(girlFrined)
@@ -66,8 +71,8 @@ func main() {
 	*/
 
 	var (
-		firstName = "Moh Fauzi"
-		lastName  = "Slamet"
+		firstName string = "Moh Fauzi" // dengan menyebut secara spesifik type nya.
+		lastName         = "Slamet"    // tanpa menyebut type nya. semua boleh.
 	)
 	fmt.Println(firstName, lastName)
 
