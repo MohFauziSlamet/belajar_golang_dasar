@@ -12,9 +12,12 @@ func getFullName() (firstName string, lastName string) {
 func main() {
 	/*
 		Named Return Values
-		Biasanya saat kita memberi tahu bahwa sebuah function mengembalikan value,
-		maka kita hanya mendeklarasikan tipe data return value di function.
-		Namun kita juga bisa membuat variable secara langsung di tipe data return function nya.
+		Biasanya saat kita memberi tahu bahwa 
+		sebuah function mengembalikan value,
+		maka kita hanya mendeklarasikan tipe 
+		data return value di function.
+		Namun kita juga bisa membuat variable secara 
+		langsung di tipe data return function nya.
 
 	*/
 
@@ -26,9 +29,9 @@ func main() {
 
 	/*
 		Menghiraukan Return Value.
-
-		Multiple return value wajib ditangkap semua value nya
-		Jika kita ingin menghiraukan return value tersebut, kita bisa menggunakan tanda _ (garis bawah)
+		Multiple return value wajib ditangkap semua value nya.
+		Jika kita ingin menghiraukan return value tersebut, 
+		kita bisa menggunakan tanda _ (garis bawah).
 
 	*/
 

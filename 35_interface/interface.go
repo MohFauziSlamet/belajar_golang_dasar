@@ -4,10 +4,13 @@ import "fmt"
 
 /*
 Interface
-● Interface adalah tipe data Abstract, dia tidak memiliki implementasi langsung.
-● Sebuah interface hanya berisikan definisi-definisi method (Function).
+● Interface adalah tipe data Abstract,
+dia tidak memiliki implementasi langsung.
+● Interface hanya berisikan definisi
+method (Function).
 ● Biasanya interface digunakan sebagai kontrak.
-● Interface juga bisa digunakan sebagai parameter pada sebuah func.
+● Interface juga bisa digunakan sebagai
+parameter pada sebuah func.
 */
 
 // Membuat interface
@@ -23,13 +26,23 @@ func sayHello(hasName HasName) {
 
 /*
 Implementasi Interface
-● Setiap tipe data yang sesuai dengan kontrak interface,
-secara otomatis dianggap sebagai interface tersebut.
-jadi ketika membuat sebuah struct , dan nama nya sama dengan interface,
-maka secara langsung mengimplementasi sebuah interface.
-● Sehingga kita tidak perlu mengimplementasikan interface secara manual.
-● Hal ini agak berbeda dengan bahasa pemrograman lain yang ketika membuat
-interface, kita harus menyebutkan secara eksplisit akan
+● Setiap tipe data yang sesuai
+dengan kontrak interface,
+secara otomatis dianggap sebagai
+interface tersebut.
+jadi ketika membuat sebuah struct,
+dan nama nya sama dengan interface,
+maka secara langsung mengimplementasi
+sebuah interface.
+
+● Sehingga kita tidak perlu
+mengimplementasikan interface
+secara manual.
+
+● Hal ini agak berbeda dengan bahasa
+pemrograman lain yang ketika membuat
+interface, kita harus menyebutkan
+secara eksplisit akan
 menggunakan interface mana.
 */
 

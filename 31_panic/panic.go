@@ -16,6 +16,8 @@ namun defer function tetap akan dieksekusi.
 // Func for defer
 func endApp() {
 	fmt.Println("End App")
+	recoverMess := recover()
+	fmt.Println(recoverMess, "\n\n============================")
 }
 
 func runAplication(error bool) {
@@ -33,5 +35,6 @@ func main() {
 	fmt.Println()
 
 	runAplication(true)
+	runAplication(false)
 
 }

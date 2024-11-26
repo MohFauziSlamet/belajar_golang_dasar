@@ -5,8 +5,10 @@ import "fmt"
 /*
 Function as Parameter.
 
-Function tidak hanya bisa kita simpan di dalam variable sebagai value.
-Namun juga bisa kita gunakan sebagai parameter untuk function lain.
+Function tidak hanya bisa kita simpan
+di dalam variable sebagai value.
+Namun juga bisa kita gunakan sebagai
+parameter untuk function lain.
 */
 
 func sayHeloWithFilter(name string, filter func(string) string) {
@@ -28,9 +30,10 @@ func filteredName(name string) string {
 
 /*
 Function Type Declarations
-
-Kadang jika function terlalu panjang, agak ribet untuk menuliskannya di dalam parameter.
-Type Declarations juga bisa digunakan untuk membuat alias function, sehingga akan mempermudah
+Kadang jika function terlalu panjang,
+agak ribet untuk menuliskannya di dalam parameter.
+Type Declarations juga bisa digunakan
+untuk membuat alias function, sehingga akan mempermudah
 kita menggunakan function sebagai parameter.
 */
 type filter func(string) string

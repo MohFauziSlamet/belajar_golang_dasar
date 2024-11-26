@@ -71,6 +71,7 @@ func main() {
 	addressFauzi := &addressLudy
 
 	fmt.Println("Menampilkan Addres ludy dan Addres fauzi sebelum diubah")
+
 	fmt.Println("Addres ludy :", addressLudy)
 	fmt.Println("Addres fauzi :", addressFauzi)
 
@@ -94,7 +95,7 @@ func main() {
 
 	/*
 		Operator *
-		● Saat kita mengubah variable pointer,
+		● Saat kita mengubah variable,
 		maka yang berubah hanya variable tersebut.
 		(yaitu meng asign ulang suatu variable dengan value yang baru)
 		● Semua variable yang mengacu ke data yang sama tidak akan
@@ -143,9 +144,9 @@ func main() {
 	address5 := &address3
 	fmt.Println("Menampilkan asign ulang addressFauzi dengan tanda bintang")
 	// kita tampilkan semua
-	fmt.Println("Addres address3 :", address3) //  {Batu Jawa timur Indonesia}
-	fmt.Println("Addres address4 :", address4) //  &{Surabaya Jawa Timur Indonesia}
-	fmt.Println("Addres address5 :", address5) //  &{Surabaya Jawa Timur Indonesia}
+	fmt.Println("Addres address3 :", address3)
+	fmt.Println("Addres address4 :", address4)
+	fmt.Println("Addres address5 :", address5)
 	fmt.Println()
 
 	/*

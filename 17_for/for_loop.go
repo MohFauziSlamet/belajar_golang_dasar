@@ -7,9 +7,9 @@ import (
 func main() {
 	/*
 		For Expression
-		Dalam bahasa pemrograman, biasanya ada fitur yang bernama perulangan.
+		Dalam bahasa pemrograman, biasanya ada fitur 
+		yang bernama perulangan.
 		Salah satu fitur perulangan adalah for loops.
-
 	*/
 
 	/// Membuat for expresion
@@ -28,7 +28,8 @@ func main() {
 		Dalam for, kita bisa menambahkan statement,
 		dimana terdapat 2 statement yang bisa tambahkan di for.
 		Init statement, yaitu statement sebelum for di eksekusi.
-		Post statement, yaitu statement yang akan selalu dieksekusi di akhir tiap perulangan.
+		Post statement, yaitu statement yang akan selalu 
+		dieksekusi di akhir tiap perulangan.
 	*/
 
 	/// i :=0 => merupakan init statement.
@@ -40,7 +41,8 @@ func main() {
 	fmt.Println()
 
 	/*
-		For juga bisa digunakan untuk mengakses data pada array , slice dan map.
+		For juga bisa digunakan untuk mengakses 
+		data pada array , slice dan map.
 	*/
 
 	/// Array
@@ -105,8 +107,10 @@ func main() {
 	fmt.Println("======================================================================")
 	fmt.Println()
 	/*
-		didalam for range terdapat index atau key, jika kita tidak memakai data tersebut,
-		bisa kita hilangkan dengan mengganti dengan tanda underscore ( _ ).
+		didalam for range terdapat index atau key.
+		jika kita tidak memakai data tersebut,
+		bisa kita hilangkan dengan mengganti dengan 
+		tanda underscore ( _ ).
 	*/
 	fmt.Println("Perulangan Array dengan Range")
 	for _, value := range array {

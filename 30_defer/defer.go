@@ -4,14 +4,16 @@ import "fmt"
 
 /*
 Defer
-● Defer function adalah function yang bisa kita jadwalkan untuk
-dieksekusi setelah sebuah function selesai di eksekusi.
-● Defer function akan selalu dieksekusi walaupun terjadi error
-di function yang dieksekusi.
-● Defer function disarankan diletakkan di awal sebuah function, apabila
-diletakan di akhir atau di tengah , jika terjadi error maka defer bisa saja
+● Defer function adalah function yang bisa
+kita jadwalkan untuk dieksekusi setelah sebuah
+function selesai di eksekusi.
+● Defer function akan selalu dieksekusi
+walaupun terjadi error di function yang dieksekusi.
+● Defer function disarankan diletakkan di awal
+sebuah function, apabila diletakan di akhir atau di tengah,
+jika terjadi error maka defer bisa saja
 tidak dijalankan , tergantung letak baris error tsb.
-jika error lebih dulu daripada defer , maka defer tidak dijalankan.
+jika error lebih dulu daripada defer, maka defer tidak dijalankan.
 */
 
 // Func for defer
@@ -35,6 +37,7 @@ func runAplication(value int) {
 func main() {
 	fmt.Println()
 
+	runAplication(1)
 	runAplication(0)
 
 }

@@ -77,7 +77,8 @@ func main() {
 
 	address3 := Address{city: "Suhat", province: "Jawa Timur"}
 
-	var address3Pointer *Address = &address3
+	// var address3Pointer *Address = &address3 // sama
+	address3Pointer := &address3 // sama
 
 	ChangeAddressToIndonesiaPointerParams(address3Pointer)
 

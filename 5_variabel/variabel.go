@@ -39,8 +39,7 @@ func main() {
 	friendName = "Moh Fauzi Slamet"
 	fmt.Println(friendName)
 
-	var age int
-	age = 999
+	var age = 999
 	fmt.Println(age)
 
 	// ==============================================================================

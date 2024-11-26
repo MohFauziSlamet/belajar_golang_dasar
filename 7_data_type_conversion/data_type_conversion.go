@@ -52,6 +52,6 @@ func main() {
 	fmt.Println(nameWife[0])
 	fmt.Println(nameHusband[0])
 
-	///* jika huRUF nya sama F dan F, maka nilai byte nya sama.
-	///* namun jika memakai f (kecil) , maka nilai byte nya berbeda.
+	/// jika huRUF nya sama F dan F, maka nilai byte nya sama.
+	/// namun jika memakai f (kecil) , maka nilai byte nya berbeda.
 }

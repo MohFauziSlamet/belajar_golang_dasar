@@ -56,7 +56,8 @@ func main() {
 	// var data int = ups(1)
 	// fmt.Println(data)
 	// akan menampilkan :
-	// cannot use ups(1) (value of type Apapun) as int value in variable declaration: need type assertioncompilerIncompatibleAssign
+	// cannot use ups(1) (value of type Apapun) as int value in variable declaration:
+	// need type assertioncompilerIncompatibleAssign
 
 	// contoh benar
 	var data1 interface{}
@@ -79,4 +80,15 @@ func main() {
 
 	var data4 interface{} = ups(3)
 	fmt.Println("data2", data4)
+
+	fmt.Println("======================================================================")
+	fmt.Println()
+
+	result := ups(00)
+	if intValue, ok := result.(int); ok {
+		fmt.Println("Hasil sebagai int:", intValue)
+	} else {
+		fmt.Println("Tipe data bukan int")
+	}
+
 }

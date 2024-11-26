@@ -7,9 +7,11 @@ import (
 func main() {
 	/*
 		Switch Expression
-		Selain if expression, untuk melakukan percabangan, kita juga bisa menggunakan Switch Expression.
+		Selain if expression, untuk melakukan percabangan, 
+		kita juga bisa menggunakan Switch Expression.
 		Switch expression sangat sederhana dibandingkan if.
-		Biasanya switch  expression digunakan untuk melakukan pengecekan ke kondisi dalam satu variable.
+		Biasanya switch expression digunakan untuk melakukan 
+		pengecekan ke kondisi dalam satu variable.
 	*/
 
 	/// Membuat switch expresion

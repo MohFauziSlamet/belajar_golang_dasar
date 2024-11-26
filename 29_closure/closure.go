@@ -4,12 +4,14 @@ import "fmt"
 
 /*
 Closures
-● Closure adalah kemampuan sebuah function berinteraksi dengan data-data disekitarnya dalam
+● Closure adalah kemampuan sebuah function
+berinteraksi dengan data-data disekitarnya dalam
 scope yang sama.
-● Harap gunakan fitur closure ini dengan bijak saat kita membuat aplikasi.
+● Harap gunakan fitur closure ini dengan bijak
+saat kita membuat aplikasi.
 
-Ketika kita salah dalam menyikapi apa itu closure , kita bisa saja
-mengubah data yang seharus nya tidak dirubah.
+Ketika kita salah dalam menyikapi apa itu closure,
+kita bisa saja mengubah data yang seharus nya tidak dirubah.
 */
 
 func main() {

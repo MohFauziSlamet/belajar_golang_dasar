@@ -2,11 +2,9 @@ package main
 
 import "fmt"
 
-/*
-fumc variadic, hanya bisa di letakkan di akhir parameter.
-akan error , jika diletakan di tengah atau didepan.
-variabel argumen hanya ada satu pada setiap function.
-*/
+// func variadic, hanya bisa di letakkan di akhir parameter.
+// jika diletakan di tengah atau didepan, akan error.
+// variabel argumen hanya ada satu pada setiap function.
 func sumAll(firstName string, lastName string, numbers ...int) (string, int) {
 	name := firstName + lastName
 	total := 0
@@ -20,11 +18,15 @@ func sumAll(firstName string, lastName string, numbers ...int) (string, int) {
 func main() {
 	/*
 		Variadic Function
-		Parameter yang berada di posisi terakhir, memiliki kemampuan dijadikan sebuah varargs (var argumen).
-		Varargs artinya datanya bisa menerima lebih dari satu input, atau anggap saja semacam Array.
+		Parameter yang berada di posisi terakhir,
+		memiliki kemampuan dijadikan sebuah var-args (var argumen).
+		Var-args artinya datanya bisa menerima lebih dari satu input,
+		atau anggap saja semacam Array / slice.
 		Apa bedanya dengan parameter biasa dengan tipe data Array?
-		Jika parameter tipe Array, kita wajib membuat array terlebih dahulu sebelum mengirimkan ke function.
-		Jika parameter menggunakan varargs, kita bisa langsung mengirim data nya,
+		Jika parameter tipe Array, kita wajib membuat array
+		terlebih dahulu sebelum mengirimkan ke function.
+		Jika parameter menggunakan var-args, kita bisa
+		langsung mengirim data nya,
 		jika lebih dari satu, cukup gunakan tanda koma.
 
 	*/
